@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 
 :root{
   --paleblue: hsl(225, 100%, 94%);
@@ -95,6 +97,7 @@ color: hsl(228, 45%, 44%);
 body {
     /* background-image: url(../images/pattern-background-desktop.svg); */
     background: url(../images/pattern-background-desktop.svg) no-repeat top / 100% var(--paleblue);
+    background-origin: content-box;
 
 }
 
@@ -115,25 +118,28 @@ body {
 }
 
 .card-banner {
-  height: 30%;
-  background-color: blue;
+  height: 33%;
+  background: url(../images/illustration-hero.svg);
 }
 
 .card-title {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 4%;
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Red Hat Display', sans-serif;
 
   
 }
 
 .card-text {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   color: grey;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
 
 }
 
@@ -147,8 +153,13 @@ body {
   height: 15%;
   align-items: center;
   justify-content: space-around;
+  font-family: 'Red Hat Display', sans-serif;
   
 
+}
+
+.spacer {
+  width: 15%;
 }
 
 .btns {
@@ -156,6 +167,8 @@ body {
   flex-direction: column;
   gap: 1em;
   padding: 35px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 15px;
 }
 
 .btns > .payment-button {
@@ -175,4 +188,24 @@ body {
   background-color: transparent;
  
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-bold {
+  font-weight: bold;
 }
