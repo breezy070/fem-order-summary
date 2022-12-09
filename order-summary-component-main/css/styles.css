@@ -1,5 +1,11 @@
 
-
+:root{
+  --paleblue: hsl(225, 100%, 94%);
+  --brightblue: hsl(245, 75%, 52%);
+  --verypaleblue: hsl(225, 100%, 98%);
+  --desaturatedblue: hsl(224, 23%, 55%);
+  --darkblue: hsl(223, 47%, 23%);
+}
 
 /* STYLES RESET*/
 /* Box sizing rules */
@@ -87,6 +93,86 @@ color: hsl(228, 45%, 44%);
 } */
 
 body {
-    background: url(../images/pattern-background-desktop.svg);
+    /* background-image: url(../images/pattern-background-desktop.svg); */
+    background: url(../images/pattern-background-desktop.svg) no-repeat top / 100% var(--paleblue);
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.card {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.card-banner {
+  height: 30%;
+  background-color: blue;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 4%;
+  font-size: 30px;
+  font-weight: bold;
+
+  
+}
+
+.card-text {
+  text-align: center;
+  margin-bottom: 5%;
+  color: grey;
+
+}
+
+.annual-plan {
+  background-color: var(--verypaleblue);
+  display: flex;
+  width: 82%;
+  margin: auto;
+  border: none;
+  border-radius: 7px;
+  height: 15%;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 35px;
+}
+
+.btns > .payment-button {
+  border-radius:  7px;
+  border: none;
+  background-color: var(--brightblue);
+  color: white;
+  font-weight: bold;
+  height: 40px;
+}
+
+.btns > .cancel-order {
+  border-radius: 7px;
+  border: none;
+  color: gray;
+  height: 40px;
+  background-color: transparent;
+ 
 
 }
