@@ -178,6 +178,7 @@ body {
   color: white;
   font-weight: bold;
   height: 40px;
+  cursor: pointer;
 }
 
 .btns > .cancel-order {
@@ -186,6 +187,7 @@ body {
   color: gray;
   height: 40px;
   background-color: transparent;
+  cursor: pointer;
  
 
 }
@@ -201,7 +203,11 @@ body {
 
 
 
+button:hover {background-color: #3e8e41}
+button:active {
 
+  transform: translateY(4px);
+}
 
 
 
