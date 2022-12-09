@@ -11,30 +11,55 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link href="./css/styles.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Order summary card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Order Summary You can now listen to millions of songs, audiobooks, and
-    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-    Proceed to Payment Cancel Order
 
-    <div class="attribution">
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="card-banner"></div>
+          <h1 class="card-title">Order Summary</h1>
+          <p class="card-text">
+            You can now listen to millions of songs,<br />
+            audiobooks, and podcasts on any device <br />
+            anywhere you like!
+          </p>
+          <div class="annual-plan">
+            <img src="./images/icon-music.svg" alt="" />
+            <div class="price">
+              <div class="text-bold">Annual Plan</div>
+              <div>$59.99/year</div>
+            </div>
+            <div class="spacer"></div>
+            <a href="#">Change</a>
+          </div>
+          <div class="btns">
+            <button type="button" class="payment-button">
+              Proceed to Payment
+            </button>
+            <button type="button" class="cancel-order">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="#">Fabrizio</a>.
+    </div> -->
   </body>
 </html>
