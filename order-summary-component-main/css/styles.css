@@ -179,6 +179,7 @@ body {
   font-weight: bold;
   height: 40px;
   cursor: pointer;
+  box-shadow: 2px 5px 5px var(--desaturatedblue);
 }
 
 .btns > .cancel-order {
@@ -188,6 +189,7 @@ body {
   height: 40px;
   background-color: transparent;
   cursor: pointer;
+  
  
 
 }
@@ -208,4 +210,8 @@ button:active {
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-light {
+  color: var(--desaturatedblue);
 }
