@@ -193,15 +193,9 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
+a:active {
+  color: var(--darkblue);
+}
 
 button:hover {background-color: #3e8e41}
 button:active {
